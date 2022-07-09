@@ -6,6 +6,12 @@
   "author": "chaospace <ichaospace@gmail.com>",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "serve": "webpack server --mode development --config ./webpack/webpack.config.js",
+    "test": "jest --watch",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
   "dependencies": {
     "axios": "^0.27.2",
     "react": "^18.0.0",
